@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/pyhton3
 
 for digit1 in range(0, 10):
     for digit2 in range(digit1 + 1, 10):
