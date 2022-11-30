@@ -6,7 +6,7 @@
     For multiples of three and five, print Fizzbuzz instead of the number of the number.
     """
 
- def fixbuzz():
+def fixbuzz():
     for number in range(1, 101):
         if number % 3 == 0 and number % 5 == 0:
             print("FizzBuzz ", end="")
