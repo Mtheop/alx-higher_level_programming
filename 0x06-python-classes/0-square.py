@@ -5,7 +5,7 @@ This module defines the square of class.
 
 """
 
+
 class Square:
     """Represents a square."""
-
     pass
