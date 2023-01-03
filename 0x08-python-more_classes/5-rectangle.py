@@ -4,8 +4,8 @@
 
 class Rectangle:
     """Represent a rectangle."""
-    def __init__(self, width=0, height=0):
 
+    def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
 
         Args:
@@ -59,12 +59,10 @@ class Rectangle:
 
         Represents the rectangle with the # character.
         """
-
         if self.__width == 0 or self.__height == 0:
             return ("")
 
         rect = []
-
         for i in range(self.__height):
             [rect.append('#') for j in range(self.__width)]
             if i != self.__height - 1:
@@ -73,12 +71,10 @@ class Rectangle:
 
     def __repr__(self):
         """Return the string representation of the Rectangle."""
-
         rect = "Rectangle(" + str(self.__width)
         rect += ", " + str(self.__height) + ")"
         return (rect)
 
     def __del__(self):
         """Print a message for every deletion of a Rectangle."""
-
         print("Bye rectangle...")
