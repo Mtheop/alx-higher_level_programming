@@ -9,10 +9,8 @@ class Rectangle:
         """Initialize a new Rectangle.
 
         Args:
-
             width (int): The width of the new rectangle.
             height (int): The height of the new rectangle.
-
         """
         self.width = width
         self.height = height
@@ -57,9 +55,7 @@ class Rectangle:
         """Return the printable representation of the Rectangle.
 
         Represents the rectangle with the # character.
-
         """
-
         if self.__width == 0 or self.__height == 0:
             return ("")
 
@@ -68,17 +64,10 @@ class Rectangle:
             [rect.append('#') for j in range(self.__width)]
             if i != self.__height - 1:
                 rect.append("\n")
-
         return ("".join(rect))
 
-
-
     def __repr__(self):
-
         """Return the string representation of the Rectangle."""
-
         rect = "Rectangle(" + str(self.__width)
-
         rect += ", " + str(self.__height) + ")"
-
         return (rect)
